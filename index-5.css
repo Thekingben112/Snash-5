@@ -1,0 +1,436 @@
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            color: #4a4a4a;
+        }
+
+        button {
+            font-family: "Manrope", sans-serif;
+            font-weight: 500;
+        }
+
+        h2 {
+            font-family: "Manrope", sans-serif;
+            margin-bottom: 10px;
+        }
+
+        h4 {
+            font-family: "Manrope", sans-serif;
+
+        }
+
+        h5 {
+            font-weight: 500;
+            font-family: "Manrope", sans-serif;
+            margin: 0 !important;
+            color: #9e9e9e;
+        }
+        
+        p {
+            font-family: "Manrope", sans-serif;
+            font-size: 13px;
+            font-weight: 500;
+            margin: 0 !important;
+        }
+
+        input,
+        select {
+            font-family: "Manrope", sans-serif;
+            outline: none;
+            border: 1px solid #c3c3c3b0;
+            height: 2.5rem;
+            width: 15rem;
+            border-radius: 9px;
+            /* background: whitesmoke; */
+            padding: 0 1.5rem;
+        }
+
+        input[type="radio"] {
+            -webkit-appearance: none;
+            -moz-appearance: none;
+            appearance: none;
+            outline: none;
+            border: 1px solid #c3c3c3b0;
+            height: 15px;
+            width: 15px;
+            color: #3c3d3d;
+            padding: 0;
+        }
+
+        input[type="radio"]:checked {
+            background-color: #3c3d3d;
+        }
+
+        input,
+        select::placeholder {
+            color: rgba(90, 90, 90, 0.774);
+        }
+
+        body {
+            min-height: 100vh;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: start;
+            padding-top: 4rem;
+            background-image: linear-gradient(120deg, #fdfbfb, #ebedee);
+        }
+
+        .mt-10 {
+            margin-top: 10px;
+        }
+
+        .mb-10 {
+            margin-bottom: 10px;
+        }
+
+        .flex-between {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .flex-between3 {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .flex-align {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .flex-between2 {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .flex-between4 {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .main-con {
+            border: 1px solid #e1e1e1;
+            min-height: 25rem;
+            min-width: 40rem;
+            padding: 2rem 3.5rem;
+            border-radius: 10px;
+            background: #fcfcfc;
+            box-shadow: 0px 0px 4px 0px #d9d9d9bf;
+        }
+
+        /* Tab-Link-Container-Style */
+        .tab {
+            /* overflow: hidden; */
+            /* border: 1px solid #ccc;
+            background-color: #f1f1f1; */
+            display: flex;
+            justify-content: start;
+            align-items: center;
+            gap: 10px;
+        }
+
+        /* Style der Tab-Links */
+        .tab button {
+            background-color: inherit;
+            /* float: left; */
+            border: 1px solid transparent;
+            outline: none;
+            cursor: pointer;
+            padding: 11px 19px;
+            transition: 0.3s;
+            font-size: 17px;
+            border-radius: 21px;
+        }
+
+        /* Ändern der Hintergrundfarbe der Tabs beim Überfahren */
+        .tab button:hover {
+            /* background-color: #ddd; */
+            background-color: #f3f3f3;
+            border: 1px solid #b9b9b961;
+            box-shadow: 0px 2px 7px -6px #15141480;
+            background-image: linear-gradient(352deg, #f5f4f4, #ebedee);
+        }
+
+        /* Erstellen eines aktiven Tabs */
+        .tab button.active {
+            background-color: #f3f3f3;
+            border: 1px solid #b9b9b961;
+            /* box-shadow: 0px 2px 7px -6px #15141480; */
+            background-image: linear-gradient(352deg, #f5f4f4, #ebedee);
+        }
+
+        hr {
+            margin: 1rem 0;
+            border-color: #e6e6e61f;
+        }
+
+        /* Style der Tab-Inhalte */
+        .tabcontent {
+            display: none;
+            padding: 6px 12px;
+            /* border: 1px solid #ccc; */
+            border-top: none;
+        }
+
+        .flex-center {
+            display: flex;
+            justify-content: center;
+        }
+
+        .mini-con {
+            border: 1px solid gainsboro;
+            width: 15rem;
+            min-height: 12rem;
+            padding: 1rem 1.5rem;
+            border-radius: 17px;
+            background: #f9f9f9;
+            overflow: hidden;
+        }
+
+        .btn1 {
+            outline: none;
+            cursor: pointer;
+            padding: 11px 19px;
+            transition: 0.3s;
+            font-size: 15px;
+            border-radius: 10px;
+            background-color: #f3f3f3;
+            border: 1px solid #b9b9b961;
+            box-shadow: 0px 2px 7px -6px #15141480;
+            background-image: linear-gradient(352deg, #363636, #424546);
+            color: white;
+        }
+
+        .min-width5 {
+            width: 5rem;
+        }
+
+        .bold {
+            font-size: 30px;
+            font-weight: 800;
+            height: 2.8rem;
+            display: flex;
+            justify-content: start;
+            align-items: end;
+        }
+
+        .mt-5 {
+            margin-top: 5px;
+        }
+
+        .m0 {
+            margin: 0;
+        }
+
+        .flex3 {
+            min-height: 12rem;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: start;
+        }
+
+        .extra-bold {
+            font-size: 25px;
+            font-weight: 700;
+            color: #4a4a4a;
+        }
+
+        .icon {
+            border: 2px solid #a1a1a1;
+            height: 1.3rem;
+            width: 1.3rem;
+            border-radius: 50%;
+            padding: 3px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            cursor: pointer;
+            position: relative;
+        }
+
+        .icon svg {
+            height: 100%;
+            fill: #a1a1a1;
+            margin-bottom: 3px;
+        }
+
+        .width100 {
+            width: 100%;
+        }
+
+        .mb-15 {
+            margin-bottom: 15px;
+        }
+
+        #icon1:hover .dropdown1 {
+            display: block;
+        }
+
+        .dropdown1 {
+            position: absolute;
+            bottom: 23px;
+            border: 1px solid #e7e7e7c4;
+            width: 15rem;
+            border-radius: 7px;
+            padding: 5px 10px;
+            background: white;
+            box-shadow: 0px 0px 5px -3px #0000008a;
+            display: none;
+            transition-property: all;
+            transition-duration: 0.3s;
+            font-size: 12px;
+        }
+
+        #icon2:hover .dropdown2 {
+            display: block;
+        }
+
+        .dropdown2 {
+            position: absolute;
+            bottom: 23px;
+            border: 1px solid #e7e7e7c4;
+            width: 15rem;
+            border-radius: 7px;
+            padding: 5px 10px;
+            background: white;
+            box-shadow: 0px 0px 5px -3px #0000008a;
+            display: none;
+            transition-property: all;
+            transition-duration: 0.3s;
+            font-size: 12px;
+        }
+
+        #icon3:hover .dropdown3 {
+            display: block;
+        }
+
+        .dropdown3 {
+            position: absolute;
+            bottom: 23px;
+            border: 1px solid #e7e7e7c4;
+            width: 15rem;
+            border-radius: 7px;
+            padding: 5px 10px;
+            background: white;
+            box-shadow: 0px 0px 5px -3px #0000008a;
+            display: none;
+            transition-property: all;
+            transition-duration: 0.3s;
+            font-size: 12px;
+        }
+
+        @media (max-width: 700px) {
+            .tab button {
+                font-size: 13px;
+            }
+
+            h2 {
+                font-size: 16px;
+            }
+
+            h5 {
+                font-size: 12px;
+            }
+
+            input,
+            select {
+                font-size: 12px;
+                width: 10rem;
+            }
+
+            .btn1 {
+                padding: 8px 19px;
+                font-size: 12px;
+            }
+
+            .main-con {
+                min-width: 90%;
+            }
+
+            .mini-con {
+                width: 100%;
+            }
+
+        }
+
+        @media (max-width: 500px) {
+            .flex-between {
+                flex-direction: column;
+                align-items: start;
+            }
+
+            .dropdown1,
+            .dropdown2,
+            .dropdown3 {
+                right: 23px;
+                bottom: -2px;
+            }
+
+
+
+            input,
+            select,
+            .mini-con,
+            .btn1 {
+                width: 100%;
+            }
+
+            .tab button {
+                padding: 5px 10px;
+                font-size: 13px;
+                border-radius: 13px;
+            }
+
+            .tab {
+                gap: 2px;
+                justify-content: center;
+            }
+
+            .main-con {
+                min-width: 100%;
+                min-height: 100vh;
+                padding: 20px 5px;
+                border-radius: 0;
+            }
+
+            body {
+                padding: 0;
+            }
+
+            .flex-between2 {
+                align-items: start;
+                flex-direction: column;
+                gap: 15px;
+            }
+
+            .flex3 {
+                width: 100%;
+                mini-height: 11rem;
+            }
+
+            .width3-100 {
+                width: 100%;
+            }
+
+            .btn1 {
+                padding: 11px 19px;
+                border-radius: 7px;
+                background-image: linear-gradient(352deg, #191919, #191919);
+            }
+        }
+
+        @media (max-width: 350px) {
+            .tab button {
+                padding: 5px 6px;
+                font-size: 13px;
+                border-radius: 13px;
+            }
+        }
